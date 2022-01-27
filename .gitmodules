@@ -1,6 +1,6 @@
 [submodule "Urho3D/Source"]
 	path = Urho3D/Source
-	url = github.com:Haukinger/Urho3D.git
+	url = https://github.com/Haukinger/Urho3D.git
 [submodule "Samples"]
 	path = Samples
-	url = github.com:Haukinger/urho-samples.git
+	url = https://github.com/Haukinger/urho-samples.git
