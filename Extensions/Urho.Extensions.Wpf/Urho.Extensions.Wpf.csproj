@@ -88,9 +88,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Bindings\NetStandard\UrhoSharp.csproj">
-      <Project>{c25a3fe0-5781-4546-bdb2-bb65ed73b165}</Project>
-      <Name>UrhoSharp</Name>
+    <ProjectReference Include="..\..\Bindings\Desktop\UrhoSharp2.csproj">
+      <Project>{174ea885-338f-4fb4-8fa3-ee1b4db073b4}</Project>
+      <Name>UrhoSharp2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
