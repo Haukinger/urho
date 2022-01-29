@@ -42,6 +42,6 @@ namespace Urho
 		Lightbuffer = 14,
 		Zone = 15,
 		MaxMaterialTextureUnits = 8,
-		MaxTextureUnits = 16
+		MaxTextureUnits = 96
 	}
 }
