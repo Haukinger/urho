@@ -20,6 +20,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Urho.Extensions.Wpf", "Extensions\Urho.Extensions.Wpf\Urho.Extensions.Wpf.csproj", "{F7842D6A-5603-47D3-B0FA-8A7A4EC8105F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrhoSharp2", "Bindings\Desktop\UrhoSharp2.csproj", "{174EA885-338F-4FB4-8FA3-EE1B4DB073B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6F1CB939-16E1-4753-91B1-A0B5C04D3121} = {6F1CB939-16E1-4753-91B1-A0B5C04D3121}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
