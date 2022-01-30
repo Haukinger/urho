@@ -23,7 +23,8 @@ namespace Urho
 		{
 			if (!Urho.Application.HasCurrent || !Urho.Application.Current.IsActive)
 			{
-				throw new InvalidOperationException("InvokeOnMain should be called when Urho.Application is active.");
+				// InvokeOnMain should be called when Urho.Application is active.
+				return;
 			}
 
 			lock (staticSyncObj)
