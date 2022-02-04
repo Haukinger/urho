@@ -105,15 +105,16 @@ namespace Urho.Extensions.WinForms
 						{
 							sw.Restart();
 							engine.RunFrame();
-							sw.Stop();
-
-							var targetMax = 1000f / FpsLimit;
 							var elapsed = sw.Elapsed.TotalMilliseconds;
+							var targetMax = 1000f / FpsLimit;
 							while (elapsed < targetMax)
                             {
-                                Thread.Sleep(0);
+                                var milliseconds = targetMax - elapsed;
+								if (milliseconds>50)
+                                    Thread.Sleep(0);
                                 elapsed = sw.Elapsed.TotalMilliseconds;
                             }
+                            sw.Stop();
                         }
 						else
 						{
