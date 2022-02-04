@@ -111,9 +111,7 @@ namespace Urho.Extensions.WinForms
 							var elapsed = sw.Elapsed.TotalMilliseconds;
 							while (elapsed < targetMax)
                             {
-                                var milliseconds = targetMax - elapsed;
-								if (milliseconds>50)
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(milliseconds));
+                                Thread.Sleep(0);
                                 elapsed = sw.Elapsed.TotalMilliseconds;
                             }
                         }
